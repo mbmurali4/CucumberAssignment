@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="18.167873">
+<testcase classname="user registration" name="User Registration on Elearning upskill application" time="18.167873">
+<skipped><![CDATA[Given User is on Elearning application registration page....................passed
+When User click on signup button for registration...........................passed
+And User enter mandatory "Apples" and "Zizs" and "email" and "Username" and "Pass" and "Confirmpassword".passed
+And User click on register button...........................................passed
+Then User should redirect to elearn home page...............................pending
+And User select inbox from user profile.....................................skipped
+And User click on compose message icon to enter subject line................skipped
+And User click on send message button at the bottom.........................skipped
+]]></skipped>
+</testcase>
+</testsuite>

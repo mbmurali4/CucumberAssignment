@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.174522">
+<testcase classname="user registration" name="User Registration on Elearning upskill application" time="26.174522">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at StepDefinition.Signin.user_should_redirect_to_elearn_home_page(Signin.java:89)&#13;&#10;&#9;at ✽.Then User should redirect to elearn home page(Sign.feature:12)&#13;&#10;"><![CDATA[Given User is on Elearning application registration page....................passed
+When User click on signup button for registration...........................passed
+And User enter mandatory "Apples" and "Zizs" and "email" and "Username" and "Pass" and "Confirmpassword".passed
+And User click on register button...........................................passed
+Then User should redirect to elearn home page...............................failed
+And User select inbox from user profile.....................................skipped
+And User click on compose message icon to enter subject line................skipped
+And User click on send message button at the bottom.........................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at StepDefinition.Signin.user_should_redirect_to_elearn_home_page(Signin.java:89)
+	at ✽.Then User should redirect to elearn home page(Sign.feature:12)
+]]></failure>
+</testcase>
+</testsuite>

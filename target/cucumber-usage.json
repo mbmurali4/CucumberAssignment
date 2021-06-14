@@ -1,0 +1,74 @@
+[
+  {
+    "source": "^User is on Elearning application registration page$",
+    "steps": [
+      {
+        "name": "User is on Elearning application registration page",
+        "aggregatedDurations": {
+          "average": 12.9600861,
+          "median": 12.9600861
+        },
+        "durations": [
+          {
+            "duration": 12.9600861,
+            "location": "Sign.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User click on register button$",
+    "steps": [
+      {
+        "name": "User click on register button",
+        "aggregatedDurations": {
+          "average": 3.1547288,
+          "median": 3.1547288
+        },
+        "durations": [
+          {
+            "duration": 3.1547288,
+            "location": "Sign.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User click on signup button for registration$",
+    "steps": [
+      {
+        "name": "User click on signup button for registration",
+        "aggregatedDurations": {
+          "average": 2.9396351,
+          "median": 2.9396351
+        },
+        "durations": [
+          {
+            "duration": 2.9396351,
+            "location": "Sign.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enter mandatory \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User enter mandatory \"Apples\" and \"Zizs\" and \"email\" and \"Username\" and \"Pass\" and \"Confirmpassword\"",
+        "aggregatedDurations": {
+          "average": 1.5797285,
+          "median": 1.5797285
+        },
+        "durations": [
+          {
+            "duration": 1.5797285,
+            "location": "Sign.feature:10"
+          }
+        ]
+      }
+    ]
+  }
+]

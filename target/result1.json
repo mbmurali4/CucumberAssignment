@@ -1,0 +1,172 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: BalaMurali M (Murali)"
+      },
+      {
+        "line": 2,
+        "value": "#Assignment : Verify user registration for Elearning upskill portal"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 19,
+        "name": "User Registration on Elearning upskill application",
+        "description": "",
+        "id": "user-registration;user-registration-on-elearning-upskill-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13130251200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on Elearning application registration page",
+            "match": {
+              "location": "Signin.user_is_on_Elearning_application_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1896441400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on signup button for registration",
+            "match": {
+              "location": "Signin.user_click_on_signup_button_for_registration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1456382700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter mandatory \"Apples\" and \"Zizs\" and \"email\" and \"Username\" and \"Pass\" and \"Confirmpassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apples",
+                  "offset": 22
+                },
+                {
+                  "val": "Zizs",
+                  "offset": 35
+                },
+                {
+                  "val": "email",
+                  "offset": 46
+                },
+                {
+                  "val": "Username",
+                  "offset": 58
+                },
+                {
+                  "val": "Pass",
+                  "offset": 73
+                },
+                {
+                  "val": "Confirmpassword",
+                  "offset": 84
+                }
+              ],
+              "location": "Signin.user_enter_mandatory_and_and_and_and_and(String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1680634600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on register button",
+            "match": {
+              "location": "Signin.user_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4163500,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat StepDefinition.Signin.user_should_redirect_to_elearn_home_page(Signin.java:78)\r\n\tat ✽.Then User should redirect to elearn home page(Sign.feature:12)\r\n",
+              "status": "pending"
+            },
+            "line": 12,
+            "name": "User should redirect to elearn home page",
+            "match": {
+              "location": "Signin.user_should_redirect_to_elearn_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User select inbox from user profile",
+            "match": {
+              "location": "Signin.user_select_inbox_from_user_profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User click on compose message icon to enter subject line",
+            "match": {
+              "location": "Signin.user_click_on_compose_message_icon_to_enter_subject_line()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User click on send message button at the bottom",
+            "match": {
+              "location": "Signin.user_click_on_send_message_button_at_the_bottom()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@featuretag"
+          },
+          {
+            "line": 6,
+            "name": "@Registration"
+          }
+        ]
+      }
+    ],
+    "name": "user registration",
+    "description": "",
+    "id": "user-registration",
+    "keyword": "Feature",
+    "uri": "Sign.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@featuretag"
+      }
+    ]
+  }
+]
